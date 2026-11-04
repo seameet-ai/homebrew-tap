@@ -4,14 +4,14 @@
 # artifacts. Do not hand-edit. The #{version} tokens are Ruby interpolation and
 # must stay literal (they are NOT placeholders the pipeline replaces).
 cask "seameet" do
-  version "5.2.3"
+  version "5.2.4"
 
   on_arm do
-    sha256 "d582ca1d00ad201b85fc0c5d31b8ab1804b204be0e6b4cd049fd5bbceec12546"
+    sha256 "8742a5fff70f040b687cfb2c88ebaddd3f262004e223476eabf5b533ee134999"
     url "https://github.com/seameet-ai/SeaMeet-Releases/releases/download/v#{version}/SeaMeet-macOS-Apple-Silicon-arm64-#{version}.dmg"
   end
   on_intel do
-    sha256 "885d2ae482f2b04d99944a5605a80fe6c450dd1206cc3d30c930540162d06dd7"
+    sha256 "c5ee0aa020eccf1bc96f72df0b2be7a8b161311a9e2138f491bb7dd5de066ecb"
     url "https://github.com/seameet-ai/SeaMeet-Releases/releases/download/v#{version}/SeaMeet-macOS-Intel-x64-#{version}.dmg"
   end
 
